@@ -24,8 +24,8 @@ block content
                                 td #{item.country}
                                 td #{item.language}
                                 td #{item.year}
-                                td #{item.summary}
                                 td #{moment(item.meta.createdAt).format('MM/DD/YYYY')}
+                                td #{item.summary}
                                 td: a(target="_blank", href="../detail/#{item._id}") 查看
                                 td: a(target="_blank", href="../admin/control/update/#{item._id}") 修改
                                 td
